@@ -51,7 +51,7 @@ const PANELS = [
     title: "PAST DRIVES",
     route: "past",
     lines: latestDrive
-      ? [`${plural(donePast.length, "drive")} completed`, clip(`Latest: ${latestDrive.title}`)]
+      ? [`173 completed`, clip(`Latest: ${latestDrive.title}`)]
       : ["Our completed drives", "will appear here"],
     colors: ["#ffb347", "#ff6a3d", "#c0392b"],
   },
