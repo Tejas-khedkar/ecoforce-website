@@ -178,7 +178,7 @@ function PlasticPage() {
   return (
     <Shell title="PLASTIC COLLECTED" subtitle="Every kilogram counts. Here is what each drive brought in.">
       <div className="total">
-        <b>'~3000'</b>
+        <b>3000+</b>
         <span>KG COLLECTED IN TOTAL</span>
       </div>
       {drives.length === 0 && <p className="empty">Numbers from our drives will appear here.</p>}
