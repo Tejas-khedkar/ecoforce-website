@@ -581,7 +581,7 @@ function Overlay({ onContact }) {
           }}
         >
           <img
-            src="/logo.jpeg"
+            src="/logo2.png"
             alt="EcoForce logo"
             onError={(e) => (e.currentTarget.style.display = "none")}
           />
