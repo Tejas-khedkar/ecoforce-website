@@ -84,7 +84,7 @@ function PastPage() {
   }, []);
 
   return (
-    <Shell title="PAST DRIVES" subtitle="Every drive we have completed so far. Click a drive to see more.">
+    <Shell title="PAST DRIVES" subtitle="Some notable drives so far. Click a drive to see more.">
       {drives.length === 0 && <p className="empty">Our completed drives will appear here.</p>}
       {drives.map((d) => {
         const key = d.title + d.date;
