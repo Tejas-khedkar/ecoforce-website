@@ -82,13 +82,13 @@ function ScrollDriver() {
     const move = (amount) => {
       scroll.target = Math.min(1, Math.max(0, scroll.target + amount));
     };
-    const onWheel = (e) => move(e.deltaY * 0.0006); // scroll speed
+    const onWheel = (e) => move(e.deltaY * 0.00028); // scroll speed
 
     let lastY = 0;
     const onTouchStart = (e) => (lastY = e.touches[0].clientY);
     const onTouchMove = (e) => {
       const y = e.touches[0].clientY;
-      move((lastY - y) * 0.0025);
+      move((lastY - y) * 0.0012);
       lastY = y;
     };
 
