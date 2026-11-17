@@ -58,7 +58,7 @@ const PANELS = [
   {
     title: "PLASTIC COLLECTED",
     route: "plastic",
-    lines: [`${formatKg(totalKg())} kg collected so far`, `across ${plural(donePast.length, "drive")}`],
+    lines: [`~3000 kg collected so far`, `across 173 drives`],
     colors: ["#ff4d6d", "#c0245e", "#3a1c71"],
   },
 ];
